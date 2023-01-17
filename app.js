@@ -44031,4 +44031,27 @@ var music = document.querySelector(".canvas--music");
 
 /*Detect onclick class="canvas--music"*/
 
+import "./node_modules/howler/dist/howler.js";
+
+var sound = new Howl({
+  src: ["./audio/watr-fluid-10149.mp3"],
+  volume: 0.5,
+  loop: true,
+
+  onplay: function() {
+    console.log("Playing");
+  }
+});
+
+sound.play()
+
+/*Detect onclick class="canvas--music"*/
+
+music.addEventListener("click", function() {
+  if (sound.playing()) {
+    sound.pause();
+  } else {
+    sound.play();
+  }
+});
 
