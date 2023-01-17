@@ -12,6 +12,8 @@ var sound = new Howl({
 
 sound.play()
 
+console.log(sound)
+
 /*Detect onclick class="canvas--music"*/
 
 music.addEventListener("click", function() {
