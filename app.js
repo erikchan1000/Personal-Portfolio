@@ -38065,9 +38065,9 @@ if (sound.playing()) {
         vg = fg.load("./textures/displacement/displacement.jpg"),
         yg = fg.load("./textures/img/Headstarter.png"),
         _g = fg.load("./textures/img/YelpLogo.png"),
-        wg = fg.load("./textures/img/auriane.jpg"),
+        wg = fg.load("./textures/img/ReactPortfolio.png"),
         kg = fg.load("./textures/img/cmsFolio.jpg"),
-        Og = fg.load("./textures/img/newspaper.jpg"),
+        Og = fg.load(""),
         Ng = fg.load("./textures/img/TechIncubator.png"),
         Fg = new Xo().load([
           "./textures/environmentMaps/px.jpg",
@@ -38331,7 +38331,7 @@ if (sound.playing()) {
       }
       (xv.src = "./textures/video/reel.mp4"),
         (xv.volume = 0.5),
-        (Vv.src = "./textures/img/profile.jpg");
+        (Vv.src = "./textures/img/profile.png");
       const u_ = (e, t, n) => e * (1 - n) + t * n,
         p_ = (e) => (e * Math.PI) / 180,
         d_ = new (class {
