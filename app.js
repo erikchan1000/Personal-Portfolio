@@ -1,4 +1,38 @@
 /*! For license information please see bundle.ed070500c303d23e3f9c.js.LICENSE.txt */
+
+
+var music = document.querySelector(".canvas--music");
+
+/*reference another script in the html with class sound*/
+
+/*Detect onclick class="canvas--music"*/
+
+import "./node_modules/howler/dist/howler.js";
+
+var sound = new Howl({
+src: ["./audio/watr-fluid-10149.mp3"],
+volume: 0.5,
+loop: true,
+
+onplay: function() {
+  console.log("Playing");
+}
+});
+
+sound.play()
+
+/*Detect onclick class="canvas--music"*/
+
+music.addEventListener("click", function() {
+if (sound.playing()) {
+  sound.pause();
+} else {
+  sound.play();
+}
+});
+
+
+
 (() => {
   var __webpack_modules__ = {
       766: (e, t, n) => {
@@ -44024,34 +44058,4 @@
     })();
 })();
 //# sourceMappingURL=bundle.ed070500c303d23e3f9c.js.map
-
-var music = document.querySelector(".canvas--music");
-
-/*reference another script in the html with class sound*/
-
-/*Detect onclick class="canvas--music"*/
-
-import "./node_modules/howler/dist/howler.js";
-
-var sound = new Howl({
-  src: ["./audio/watr-fluid-10149.mp3"],
-  volume: 0.5,
-  loop: true,
-
-  onplay: function() {
-    console.log("Playing");
-  }
-});
-
-sound.play()
-
-/*Detect onclick class="canvas--music"*/
-
-music.addEventListener("click", function() {
-  if (sound.playing()) {
-    sound.pause();
-  } else {
-    sound.play();
-  }
-});
 
