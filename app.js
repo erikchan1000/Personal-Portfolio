@@ -39529,204 +39529,50 @@ if (sound.playing()) {
           ) {
             case "id2021":
               Jv.forEach((e) => {
-                e.innerHTML = "ID 2021";
+                e.innerHTML = "Headstarter";
               }),
                 (qv.innerHTML =
-                  "Immersions Digitales 2021 is a WebGl experience created in order to introduce the open days of the year from my technical faculty in Tarbes (France). We were three to work on this project, including a 3D modeler and two developers. As a developer, I imagined and developed a large part of 2D/3D animations and the micro interactions. We were awarded by an honorable mention on Awwwards.<br><br>Technologies used :<br>HTML, SCSS, JavaScript, Three.js, GLSL, GSAP"),
-                (Xv.src = "./textures/img/idWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.immersions-digitales.fr/" target="_blank">Launch Website</a>');
+                  "Headstarter is a full stack bootcamp where I learned the basics of web development and participated in the creation of 10+ web applications. Throughout the 6 months of the program, I was able to develop my skills in HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more. <br><br>Technologies used :<br>HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Git, GitHub, Heroku, Netlify, Figma, Adobe XD"),
+                (Xv.src = "./textures/img/HeadStarter2.png");
               break;
             case "astralys":
               Jv.forEach((e) => {
-                e.innerHTML = "ASTRALYS";
+                e.innerHTML = "MEALIFY";
               }),
                 (qv.innerHTML =
-                  "Astralys is a WebGl experience originally created as part of a university project. Its purpose is to show our solar system on scale, with several informations on the different elements that compose it. I was in charge of developing the whole website.<br><br>Technologies used :<br>HTML, CSS, JavaScript, Three.js"),
-                (Xv.src = "./textures/img/astralysWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://astralys.thomalecornu.fr/" target="_blank">Launch Website</a>');
+                  "Mealify is a web application I created during my time at Headstarter. It is a restaurant finder that allows you to find restaurants based on your locations and your preferences. It features a map that displays restaurants and a list of recommended local choices. There is also a feature which will automatically send a notification with a curated list of restaurants depending on your meal times. <br><br>Technologies used :<br>HTML, CSS, JavaScript, React, Node.js, Express, Google Firebase, Git, GitHub, , Yelp API, Figma"),
+                (Xv.src = "./textures/img/Yelp2.png");
               break;
             case "terreDeBois":
               Jv.forEach((e) => {
-                e.innerHTML = "TERRE DE BOIS";
+                e.innerHTML = "TECH INCUBATOR";
               }),
                 (qv.innerHTML =
-                  "Proposal of a new corporate identity for a company named Terre de Bois. This corporation is  a cooperative of eco-builders with 20 years of expertise in construction industry.<br><br>Software used :<br>Adobe Illustrator"),
-                (Xv.src = "./textures/img/terreDeBoisWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114896841/Terre-de-Bois" target="_blank">See on Behance</a>');
+                  "The tech incubator is a platform with a content management system where tech companies can find the right talent. It is a full stack web application that allows companies to post projects and have university students complete them. This platform enables students to display their skills to their desired companies and allows companies to talent scout. The website uses Google Firebase to dynamically update content.<br><br>Technologies used :<br>HTML, CSS, JavaScript, React, Node.js, Express, Google Firebase, Git, Figma"),
+                (Xv.src = "./textures/img/TechIncubator2.png");
               break;
             case "auriane":
               Jv.forEach((e) => {
-                e.innerHTML = "AURIANE";
+                e.innerHTML = "REACT PORTFOLIO";
               }),
                 (qv.innerHTML =
-                  "Portfolio created in two days for a friend. Through this project, I sought to reproduce minimalists design and animations. Layout inspired by Paul & Henriette website from Aristide Benoist.<br><br>Technologies used :<br>HTML, SCSS, JavaScript, Locomotive Scroll"),
-                (Xv.src = "./textures/img/aurianeWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://auriane.thomalecornu.fr/" target="_blank">Launch Website</a>');
+                  "Portfolio created in a week using React.js, gsap, and scss. This portfolio serves as both a showcase of my projects and my skills. Inspiration taken from Thomale Cornu.<br><br>Technologies used :<br>HTML, SCSS, JavaScript, React.js, gsap"),
+                (Xv.src = "./textures/img/ReactPortfolio2.png");
               break;
             case "cmsFolio":
               Jv.forEach((e) => {
-                e.innerHTML = "CMS FOLIO";
+                e.innerHTML = "Express Portfolio";
               }),
                 (qv.innerHTML =
-                  "CMS folio is a web development project with a content management system. The website uses a database to alter and add dynamically the content of each project.</br></br>Technologies used :</br>PHP, SQL, HTML, CSS"),
-                (Xv.src = "./textures/img/cmsFolioWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://cmsfolio.thomalecornu.fr/" target="_blank">Launch Website</a>');
+                  "This Express Portfolio is a portfolio I built for my friend. It served as a platform to learn Express.js.</br></br>Technologies used :</br>React.js, Express.js, HTML, CSS");
               break;
             case "newspaper":
               Jv.forEach((e) => {
-                e.innerHTML = "NEWSPAPER";
+                e.innerHTML = "RESUME PARSER";
               }),
                 (qv.innerHTML =
-                  "Newspaper is a 3D motion design video. The purpose was to create in group, a newspaper of one week, in any support of our choice. I imagined and created the video, inspired by BBC.</br></br>Softwares used :</br>Adobe After Effects, Trapcode Particular"),
-                (Xv.src = "./textures/img/newspaperWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114896361/Newspaper" target="_blank">Watch on Behance</a>');
-              break;
-            case "jamOn":
-              Jv.forEach((e) => {
-                e.innerHTML = "JAM-ON";
-              }),
-                (qv.innerHTML =
-                  "JAM-ON is a web model created for a graphic design project. The purpose was to create a graphic identity for a jam website, targeting a population under 25 years old.<br><br>Software used :<br>Adobe XD"),
-                (Xv.src = "./textures/img/jamOnWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114896117/JAM-ON" target="_blank">See on Behance</a>');
-              break;
-            case "folio2020":
-              Jv.forEach((e) => {
-                e.innerHTML = "FOLIO 2020";
-              }),
-                (qv.innerHTML =
-                  "This is my personal portfolio for 2020. Layout inspired by Richard Mattka's portfolio.</br></br>Technologies used :</br>HTML, CSS, JavaScript, PHP"),
-                (Xv.src = "./textures/img/folio2020Work.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://folio2020.thomalecornu.fr/" target="_blank">Launch Website</a>');
-              break;
-            case "internship":
-              Jv.forEach((e) => {
-                e.innerHTML = "INTERNSHIP";
-              }),
-                (qv.innerHTML =
-                  "At the end of my first year internship at GSP Publicité, we had to do a video of presentation. I chosed motion design, because in my opinion, this is what illustrates the best the company and the tasks they are performing.<br><br>Software used :<br>Adobe After Effects"),
-                (Xv.src = "./textures/img/internshipWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114895861/Internship" target="_blank">Watch on Behance</a>');
-              break;
-            case "gamovore":
-              Jv.forEach((e) => {
-                e.innerHTML = "GAMOVORE";
-              }),
-                (qv.innerHTML =
-                  "Gamovore is a dynamic web project. The goal was to create an encyclopedia, which references video games by categories and classes with a rating.</br></br>Technologies used :</br>PHP, HTML, CSS"),
-                (Xv.src = "./textures/img/gamovoreWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://gamovore.thomalecornu.fr/" target="_blank">Launch Website</a>');
-              break;
-            case "dresson":
-              Jv.forEach((e) => {
-                e.innerHTML = "DRESSON";
-              }),
-                (qv.innerHTML =
-                  "DressOn is a web model produced during a project management course. The objective was to create a brand image of our choice with a graphic identity of its own.<br><br>Software used :<br>Adobe XD"),
-                (Xv.src = "./textures/img/dressOnWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114895709/DressOn" target="_blank">See on Behance</a>');
-              break;
-            case "mmorpion":
-              Jv.forEach((e) => {
-                e.innerHTML = "MMORPION";
-              }),
-                (qv.innerHTML =
-                  "MMORPION is a dynamic web project. The aim was to recreate the famous game of noughts and crosses in PHP.</br></br>Technologies used :</br>PHP, HTML, CSS"),
-                (Xv.src = "./textures/img/mmorpionWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://mmorpion.thomalecornu.fr/" target="_blank">Launch Website</a>');
-              break;
-            case "mushrooms":
-              Jv.forEach((e) => {
-                e.innerHTML = "MUSHROOMS";
-              }),
-                (qv.innerHTML =
-                  "Accomplishment of several mushrooms inspired by the famous game Mario. We had to do three, with the character design of our choice.<br><br>Software used :<br>Adobe Illustrator"),
-                (Xv.src = "./textures/img/mushroomsWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114895327/Mushrooms" target="_blank">See on Behance</a>');
-              break;
-            case "yasuo":
-              Jv.forEach((e) => {
-                e.innerHTML = "YASUO";
-              }),
-                (qv.innerHTML =
-                  "Yasuo is a 3D animation made during my free time.<br><br>Softwares used :<br>Adobe After Effects, Trapcode Particular, Plexus"),
-                (Xv.src = "./textures/img/3dBackgroundWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114895183/Yasuo" target="_blank">Watch on Behance</a>');
-              break;
-            case "folio2019":
-              Jv.forEach((e) => {
-                e.innerHTML = "FOLIO 2019";
-              }),
-                (qv.innerHTML =
-                  "This is my personal portfolio for 2019.</br></br>Technologies used :</br>HTML, CSS"),
-                (Xv.src = "./textures/img/folio2019Work.jpg"),
-                (Yv.innerHTML =
-                  '<a href="http://folio2019.thomalecornu.fr/" target="_blank">Launch Website</a>');
-              break;
-            case "laDette":
-              Jv.forEach((e) => {
-                e.innerHTML = "LA DETTE";
-              }),
-                (qv.innerHTML =
-                  "Group work as part of a communication course, we had to do a multimedia content to explain the appearance of debt. I made the video entirely in motion design to make the subject as clear as possible.<br><br>Softwares used :<br>Adobe After Effects, Trapcode Particular"),
-                (Xv.src = "./textures/img/laDetteWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114895015/Aux-origines-de-la-dette" target="_blank">Watch on Behance</a>');
-              break;
-            case "animayo":
-              Jv.forEach((e) => {
-                e.innerHTML = "ANIMAYO";
-              }),
-                (qv.innerHTML =
-                  "Animayo is an animation, visual effects and video game festival. I made this design as part of a spanish class, for the dream-themed illustration contest.<br><br>Software used :<br>Adobe Illustrator"),
-                (Xv.src = "./textures/img/animayoWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114894841/Animayo" target="_blank">See on Behance</a>');
-              break;
-            case "outroId":
-              Jv.forEach((e) => {
-                e.innerHTML = "OUTRO ID";
-              }),
-                (qv.innerHTML =
-                  "Outro ID is an animation produced for the Immersions Digitales 2020 teaser and the TV studio workshop.<br><br>Softwares used :<br>Adobe After Effects, Trapcode Particular"),
-                (Xv.src = "./textures/img/outroIdWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114894651/Outro-ID" target="_blank">Watch on Behance</a>');
-              break;
-            case "letterMask":
-              Jv.forEach((e) => {
-                e.innerHTML = "LETTER MASK";
-              }),
-                (qv.innerHTML =
-                  "Letter mask is an illustration made for a design class. The goal was to inlay a character in a letter, using layers masks.<br><br>Software used :<br>Adobe Photoshop"),
-                (Xv.src = "./textures/img/letterMaskWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114894027/Letter-mask" target="_blank">See on Behance</a>');
-              break;
-            case "motionIntro":
-              Jv.forEach((e) => {
-                e.innerHTML = "MOTION INTRO";
-              }),
-                (qv.innerHTML =
-                  "Motion intro is a motion design animation made during my free time.<br><br>Software used :<br>Adobe After Effects"),
-                (Xv.src = "./textures/img/motionIntroWork.jpg"),
-                (Yv.innerHTML =
-                  '<a href="https://www.behance.net/gallery/114893481/Motion-intro" target="_blank">Watch on Behance</a>');
-          }
+                  "Resume Parser is the first web application I built. This application features a candidate portal (where candidates upload their resumes) and a recruiter portal (with resume data parsed and aggregated into a sortable table). </br></br>Softwares used :</br> Flask, Python, Javascript, HTML, CSS, mySQL");
+              break;}
           let e = document.querySelectorAll(
             ".workRevealContainer .linkProject a"
           );
