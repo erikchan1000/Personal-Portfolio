@@ -501,7 +501,7 @@ body {
 .hamburgerWrapper .lineContainer--3 .line {
   height: 1.25px;
   margin: 0;
-  background: #9c9393;
+  background: rgb(71, 54, 54);
   width: 45px;
   -webkit-clip-path: inset(0 0 0 0);
   clip-path: inset(0 0 0 0);
@@ -510,7 +510,7 @@ body {
 @media screen and (max-width: 767px) {
   .hamburgerWrapper .lineContainer--3 .line {
     width: 35px;
-    background: #9c9393;
+    background: rgb(71, 54, 54);
   }
 }
 
@@ -588,7 +588,7 @@ body {
 .hamburgerWrapper .lineContainer--4 .line {
   height: 1.25px;
   margin: 0;
-  background: white;
+  background: rgb(71, 54, 54);
   width: 45px;
 }
 
