@@ -1148,7 +1148,7 @@ body {
   height: 80vh;
   font-family: "title";
   font-size: 17vw;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
   color: transparent;
   letter-spacing: 1vw;
