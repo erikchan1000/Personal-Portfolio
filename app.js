@@ -39597,7 +39597,7 @@ if (sound.playing()) {
             (wv.style.display = "flex"),
             Sd.to(".projectName", 0.75, { opacity: 0, ease: "power3" }),
             Sd.to(".projectCat", 0.75, { opacity: 0, ease: "power3" }),
-            Sd.to(".workRevealContainer", 0, { opacity: 1, ease: "power3" }),
+            Sd.to(".workRevealContainer", 0, { opacity: 1, ease: "power3"}),
             setTimeout(function () {
               Sd.to(".projectName", 0, { transform: "scale(1.17)" }),
                 Sd.to(".projectCat", 0, { transform: "scale(1.17)" }),
@@ -40790,22 +40790,28 @@ if (sound.playing()) {
                     })));
           })),
         Sv.addEventListener("click", () => {
-          (dy = "id2021"), X_();
+          (dy = "id2021")
+          X_();
         }),
         Tv.addEventListener("click", () => {
-          (dy = "astralys"), X_();
+          (dy = "astralys")
+          X_();
         }),
         Ev.addEventListener("click", () => {
-          (dy = "terreDeBois"), X_();
+          (dy = "terreDeBois")
+          X_();
         }),
         Av.addEventListener("click", () => {
-          (dy = "auriane"), X_();
+          (dy = "auriane")
+          X_();
         }),
         Lv.addEventListener("click", () => {
-          (dy = "cmsFolio"), X_();
+          (dy = "cmsFolio")
+          X_();
         }),
         Pv.addEventListener("click", () => {
-          (dy = "newspaper"), X_();
+          (dy = "newspaper")
+          X_();
         }),
         zg.addEventListener("mousedown", () => {
           Z_();
