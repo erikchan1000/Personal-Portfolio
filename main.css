@@ -1701,6 +1701,7 @@ body {
   font-size: 1vw;
   letter-spacing: 0.15vw;
   opacity: 0;
+  width: 30%;
 }
 
 @media screen and (max-width: 1024px) {

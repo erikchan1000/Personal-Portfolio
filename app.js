@@ -11,7 +11,7 @@ import "./node_modules/howler/dist/howler.js";
 
 var sound = new Howl({
 src: ["./audio/watr-fluid-10149.mp3"],
-volume: 0.5,
+volume: 0.25,
 loop: true,
 
 onplay: function() {
@@ -38197,7 +38197,7 @@ if (sound.playing()) {
         o_ = new ug.Howl({
           src: ["/"],
           loop: !0,
-          volume: 0.5,
+          volume: 0.25,
         }),
         s_ = new ug.Howl({
           src: ["/"],
