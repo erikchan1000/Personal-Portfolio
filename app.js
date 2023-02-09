@@ -38330,7 +38330,8 @@ if (sound.playing()) {
           });
       }
       (xv.src = "./textures/video/reel.mp4"),
-        (xv.volume = 0.5),
+        (xv.volume = 0),
+        (xv.loop = true),
         (Vv.src = "./textures/img/profile.png");
       const u_ = (e, t, n) => e * (1 - n) + t * n,
         p_ = (e) => (e * Math.PI) / 180,
@@ -39720,9 +39721,7 @@ if (sound.playing()) {
           xv.play(),
           setTimeout(function () {
             console.log(sound)
-            if (sound.playing()) {
-              sound.pause()
-            }
+            
 
             Sd.to(".showreelRevealContainer", 0, {
               clipPath: "inset(0% 0% 0% 0%)",
