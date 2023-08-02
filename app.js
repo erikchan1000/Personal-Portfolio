@@ -38063,7 +38063,7 @@ if (sound.playing()) {
         mg = fg.load("./textures/alpha/alphaRing.jpg"),
         gg = fg.load("./textures/alpha/alphaTexture.jpg"),
         vg = fg.load("./textures/displacement/displacement.jpg"),
-        yg = fg.load("./textures/img/Headstarter.png"),
+        yg = fg.load("./textures/img/ebay-logo-2.jpeg"),
         _g = fg.load("./textures/img/YelpLogo.png"),
         wg = fg.load("./textures/img/ReactPortfolio.png"),
         kg = fg.load("./textures/img/cmsFolio.jpg"),
@@ -39530,13 +39530,21 @@ if (sound.playing()) {
           ) {
             case "id2021":
               Jv.forEach((e) => {
+                e.innerHTML = "EBAY Deep Learning Competition";
+              }),
+                (qv.innerHTML =
+                  "Competing in EBAY MAchine Learning Competition. During the 4 month long project, our team was tasked with creating a Named Entity Recognition model that would identify and classify each word in listing titles. Currently, I am placed 6th in the competition with a F1 score of 93%. This project marks my first steps into the world of machine learning and I am excited to learn more about it in the future. <br><br>Technologies used :<br>Python, TensorFlow, Bidirectional Recurrent Layers, BERT, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn"),
+                (Xv.src = "./textures/img/Ebay-Logo-1.png");
+              break;
+            case "astralys":
+              Jv.forEach((e) => {
                 e.innerHTML = "Headstarter";
               }),
                 (qv.innerHTML =
                   "Headstarter is a full stack bootcamp where I learned the basics of web development and participated in the creation of 10+ web applications. Throughout the 6 months of the program, I was able to develop my skills in HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more. <br><br>Technologies used :<br>HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Git, GitHub, Heroku, Netlify, Figma, Adobe XD"),
-                (Xv.src = "./textures/img/HeadStarter2.png");
+                  (Xv.src = "./textures/img/HeadStarter2.png");
               break;
-            case "astralys":
+            case "terreDeBois":
               Jv.forEach((e) => {
                 e.innerHTML = "MEALIFY";
               }),
@@ -39544,35 +39552,28 @@ if (sound.playing()) {
                   "Mealify is a web application I created during my time at Headstarter. It is a restaurant finder that allows you to find restaurants based on your locations and your preferences. It features a map that displays restaurants and a list of recommended local choices. There is also a feature which will automatically send a notification with a curated list of restaurants depending on your meal times. <br><br>Technologies used :<br>HTML, CSS, JavaScript, React, Node.js, Express, Google Firebase, Git, GitHub, , Yelp API, Figma"),
                 (Xv.src = "./textures/img/Yelp2.png");
               break;
-            case "terreDeBois":
+            case "auriane":
               Jv.forEach((e) => {
                 e.innerHTML = "TECH INCUBATOR";
               }),
                 (qv.innerHTML =
                   "The tech incubator is a platform with a content management system where tech companies can find the right talent. It is a full stack web application that allows companies to post projects and have university students complete them. This platform enables students to display their skills to their desired companies and allows companies to talent scout. The website uses Google Firebase to dynamically update content.<br><br>Technologies used :<br>HTML, CSS, JavaScript, React, Node.js, Express, Google Firebase, Git, Figma"),
-                (Xv.src = "./textures/img/TechIncubator2.png");
+                  (Xv.src = "./textures/img/TechIncubator2.png");
               break;
-            case "auriane":
+            case "cmsFolio":
               Jv.forEach((e) => {
                 e.innerHTML = "REACT PORTFOLIO";
               }),
                 (qv.innerHTML =
                   "Portfolio created in a week using React.js, gsap, and scss. This portfolio serves as both a showcase of my projects and my skills. Inspiration taken from Thomale Cornu.<br><br>Technologies used :<br>HTML, SCSS, JavaScript, React.js, gsap"),
-                (Xv.src = "./textures/img/ReactPortfolio2.png");
-              break;
-            case "cmsFolio":
+                  (Xv.src = "./textures/img/ReactPortfolio2.png");
+                  break;
+            case "newspaper":
               Jv.forEach((e) => {
                 e.innerHTML = "Express Portfolio";
               }),
                 (qv.innerHTML =
                   "This Express Portfolio is a portfolio I built for my friend. It served as a platform to learn Express.js.</br></br>Technologies used :</br>React.js, Express.js, HTML, CSS");
-              break;
-            case "newspaper":
-              Jv.forEach((e) => {
-                e.innerHTML = "RESUME PARSER";
-              }),
-                (qv.innerHTML =
-                  "Resume Parser is the first web application I built. This application features a candidate portal (where candidates upload their resumes) and a recruiter portal (with resume data parsed and aggregated into a sortable table). </br></br>Softwares used :</br> Flask, Python, Javascript, HTML, CSS, mySQL");
               break;}
           let e = document.querySelectorAll(
             ".workRevealContainer .linkProject a"
