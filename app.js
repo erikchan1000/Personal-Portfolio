@@ -39706,7 +39706,7 @@ if (sound.playing()) {
             background: "rgba(177, 177, 177, 0)",
             ease: "power3.in",
           }),
-          Sd.to(".cursorLoader", 0.5, { opacity: 0, ease: "power3.in" }),
+          Sd.to(".cursorLoader", 0.5, { opacity: 1, ease: "power3.in" }),
           Sd.to(ey, 0.5, {
             opacity: 0.5,
             padding: "0px",
