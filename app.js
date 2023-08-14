@@ -38064,11 +38064,11 @@ if (sound.playing()) {
         gg = fg.load("./textures/alpha/alphaTexture.jpg"),
         vg = fg.load("./textures/displacement/displacement.jpg"),
         yg = fg.load("./textures/img/ebay-logo-2.jpeg"),
-        _g = fg.load("./textures/img/YelpLogo.png"),
-        wg = fg.load("./textures/img/ReactPortfolio.png"),
+        _g = fg.load("./textures/img/HeadStarter.png"),
+        Ng = fg.load("./textures/img/YelpLogo.png"),
+        wg = fg.load("./textures/img/TechIncubator.png"),
         kg = fg.load("./textures/img/cmsFolio.jpg"),
         Og = fg.load(""),
-        Ng = fg.load("./textures/img/TechIncubator.png"),
         Fg = new Xo().load([
           "./textures/environmentMaps/px.jpg",
           "./textures/environmentMaps/nx.jpg",
@@ -39533,7 +39533,7 @@ if (sound.playing()) {
                 e.innerHTML = "EBAY Deep Learning Competition";
               }),
                 (qv.innerHTML =
-                  "Competing in EBAY MAchine Learning Competition. During the 4 month long project, our team was tasked with creating a Named Entity Recognition model that would identify and classify each word in listing titles. Currently, I am placed 6th in the competition with a F1 score of 93%. This project marks my first steps into the world of machine learning and I am excited to learn more about it in the future. <br><br>Technologies used :<br>Python, TensorFlow, Bidirectional Recurrent Layers, BERT, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn"),
+                  "Competing in EBAY Machine Learning Competition. During the 4 month long project, our team was tasked with creating a Named Entity Recognition model that would identify and classify each word in listing titles. Currently, I am placed 6th in the competition with a F1 score of 93%. This project marks my first steps into the world of machine learning and I am excited to learn more about it in the future. <br><br>Technologies used :<br>Python, TensorFlow, Bidirectional Recurrent Layers, BERT, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn"),
                 (Xv.src = "./textures/img/Ebay-Logo-1.png");
               break;
             case "astralys":
