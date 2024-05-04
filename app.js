@@ -38064,8 +38064,8 @@ if (sound.playing()) {
         gg = fg.load("./textures/alpha/alphaTexture.jpg"),
         vg = fg.load("./textures/displacement/displacement.jpg"),
         yg = fg.load("./textures/img/ebay-logo-2.jpeg"),
-        _g = fg.load("./textures/img/HeadStarter.png"),
-        Ng = fg.load("./textures/img/YelpLogo.png"),
+        _g = fg.load("./textures/img/NIA_2.png"),
+        Ng = fg.load("./textures/img/HeadStarter.png"),
         wg = fg.load("./textures/img/TechIncubator.png"),
         kg = fg.load("./textures/img/cmsFolio.jpg"),
         Og = fg.load(""),
@@ -39536,7 +39536,7 @@ if (sound.playing()) {
                   "Competing in EBAY Machine Learning Competition. During the 4 month long project, our team was tasked with creating a Named Entity Recognition model that would identify and classify each word in listing titles. Currently, I am placed 6th in the competition with a F1 score of 93%. This project marks my first steps into the world of machine learning and I am excited to learn more about it in the future. <br><br>Technologies used :<br>Python, TensorFlow, Bidirectional Recurrent Layers, BERT, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn"),
                 (Xv.src = "./textures/img/Ebay-Logo-1.png");
               break;
-            case "astralys":
+            case "terreDeBois":
               Jv.forEach((e) => {
                 e.innerHTML = "Headstarter";
               }),
@@ -39544,13 +39544,22 @@ if (sound.playing()) {
                   "Headstarter is a full stack bootcamp where I learned the basics of web development and participated in the creation of 10+ web applications. Throughout the 6 months of the program, I was able to develop my skills in HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and more. <br><br>Technologies used :<br>HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Git, GitHub, Heroku, Netlify, Figma, Adobe XD"),
                   (Xv.src = "./textures/img/HeadStarter2.png");
               break;
-            case "terreDeBois":
+            case "astralys":
               Jv.forEach((e) => {
-                e.innerHTML = "MEALIFY";
+                e.innerHTML = "Generative AI Personality (NIA)";
               }),
                 (qv.innerHTML =
-                  "Mealify is a web application I created during my time at Headstarter. It is a restaurant finder that allows you to find restaurants based on your locations and your preferences. It features a map that displays restaurants and a list of recommended local choices. There is also a feature which will automatically send a notification with a curated list of restaurants depending on your meal times. <br><br>Technologies used :<br>HTML, CSS, JavaScript, React, Node.js, Express, Google Firebase, Git, GitHub, , Yelp API, Figma"),
-                (Xv.src = "./textures/img/Yelp2.png");
+                  ```
+                    NIA is a tuned large language model built on top of Google's foundational model: Gemini.
+                    The goal of this LLM is to clone the personality of a person by training it on their social media data and speech patterns.
+                    Elevenlab's AI is used to clone voices and interact with end users with the cloned voice. 
+                    A custom browser Web Audio library was created to playback streamed audio chunks from Elevenlab's API's in real time.<br/><br/>
+
+                    Technologies used:<br/>
+                    Google Cloud Platform, Gemini, Elevenlabs, Next.js, Node.js, Tensorflow<br/><br/>
+                    
+                  ```),
+                (Xv.src = "./textures/img/NIA.png");
               break;
             case "auriane":
               Jv.forEach((e) => {
