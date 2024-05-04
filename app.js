@@ -39546,10 +39546,10 @@ if (sound.playing()) {
               break;
             case "astralys":
               Jv.forEach((e) => {
-                e.innerHTML = "Generative AI Personality (NIA)";
+                e.innerHTML = "NIA";
               }),
                 (qv.innerHTML =
-                  ```
+                  `
                     NIA is a tuned large language model built on top of Google's foundational model: Gemini.
                     The goal of this LLM is to clone the personality of a person by training it on their social media data and speech patterns.
                     Elevenlab's AI is used to clone voices and interact with end users with the cloned voice. 
@@ -39557,8 +39557,9 @@ if (sound.playing()) {
 
                     Technologies used:<br/>
                     Google Cloud Platform, Gemini, Elevenlabs, Next.js, Node.js, Tensorflow<br/><br/>
-                    
-                  ```),
+                    Link:<br/>
+                    <a href="https://breakinghits-22ab7.uc.r.appspot.com/" target="_blank">NIA</a>
+                  `),
                 (Xv.src = "./textures/img/NIA.png");
               break;
             case "auriane":
